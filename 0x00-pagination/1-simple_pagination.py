@@ -42,7 +42,8 @@ class Server:
         Returns:
         List[List]: A list of lists representing the records for the
         specified page.
-                    If the start index is out of range, an empty list is returned.
+                    If the start index is out of range, an empty list is
+                    returned.
         """
         assert isinstance(page, int) and page > 0, \
             "Page number must be a positive integer."
