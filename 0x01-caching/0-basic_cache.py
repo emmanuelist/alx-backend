@@ -1,5 +1,23 @@
 #!/usr/bin/env python3
 
+"""
+Module for basic caching system.
+
+This module provides a BasicCache class that defines a basic caching system
+without limit.
+It allows you to add and retrieve items from the cache using the put and get
+methods.
+
+Example:
+    >>> from basic_cache import BasicCache
+    >>> cache = BasicCache()
+    >>> cache.put('user_id', 123)
+    >>> cache.get('user_id')
+    123
+    >>> cache.get('non_existent_key')
+    None
+"""
+
 from base_caching import BaseCaching
 
 
