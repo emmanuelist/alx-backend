@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+
+"""
+Module for a simple Flask web application.
+
+This module defines a Flask application that serves a single page,
+the index page.
+"""
+
 from flask import Flask, render_template, request
 from flask_babel import Babel
 
